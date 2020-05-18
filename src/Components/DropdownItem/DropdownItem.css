@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap");
+
+.menu-item {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border-radius: var(--border-radius);
+  transition: background var(--speed);
+  padding: 0.5rem;
+}
+
+.menu-item:hover {
+  background-color: #525357;
+}
+
+.dropdown-text {
+  margin: 0 1rem;
+  font-family: "Balsamiq Sans", cursive;
+}
+
+.dropdown-item svg {
+  fill: var(--text-color);
+  width: 20px;
+  height: 20px;
+}
+
+.icon-right {
+  margin-left: auto;
+}
